@@ -1,5 +1,6 @@
 package com.example.aplikasipencarianayatal_quran.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -35,7 +36,7 @@ public class namaSurahAdapter extends RecyclerView.Adapter<namaSurahAdapter.Sura
     }
 
     @Override
-    public void onBindViewHolder(@NonNull namaSurahAdapter.SurahViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull namaSurahAdapter.SurahViewHolder holder, @SuppressLint("RecyclerView") int position) {
         // data yang akan tampil di activity target
         holder.txtNomorSurah.setText(ListSurah.get(position).getSuraId());
         holder.txtNamaSurah.setText(ListSurah.get(position).getNamaSurah());

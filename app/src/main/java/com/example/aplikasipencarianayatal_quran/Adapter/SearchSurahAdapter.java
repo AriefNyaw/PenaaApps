@@ -1,5 +1,6 @@
 package com.example.aplikasipencarianayatal_quran.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +39,7 @@ public class SearchSurahAdapter extends RecyclerView.Adapter<SearchSurahAdapter.
     }
 
     @Override
-    public void onBindViewHolder(@NonNull SearchSurahViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull SearchSurahViewHolder holder, @SuppressLint("RecyclerView") int position) {
         DataPencarianSurahItem search = searchItem.get(position);
         holder.namasurahsearch.setText(search.getNamaSurah());
         holder.jlmhhasilsearch.setText(search.getTotal());

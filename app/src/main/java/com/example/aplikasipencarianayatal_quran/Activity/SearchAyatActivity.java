@@ -220,15 +220,18 @@ public class SearchAyatActivity extends AppCompatActivity implements Botreply {
                         RvListSearchSurah.setVisibility(View.GONE);
                         HintCari.setText("Maaf kata kunci tidak ditemukan, gunakan kata kunci lain Contoh: Ketik kata kunci 'surga' atau 'saya sedang galau'");
                         HintCari.setVisibility(View.VISIBLE);
+                        loading.dismiss();
                     }
                 } else {
+                    loading.dismiss();
                     Toast.makeText(SearchAyatActivity.this, "Periksa Koneksi Kembali", Toast.LENGTH_SHORT).show();
                 }
             }
 
             @Override
             public void onFailure(Call<ResponseCariSurah> call, Throwable t) {
-
+                loading.dismiss();
+                Toast.makeText(SearchAyatActivity.this, "Periksa Koneksi Kembali", Toast.LENGTH_SHORT).show();
             }
         });
     }

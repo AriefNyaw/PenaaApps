@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/drawable/roundedbutton.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_detail_child_search.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_doa.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_isi_topik_quran.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_item_nama_surah.xml" value="0.20108695652173914" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_progress_dialog.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_progress_dialog_search.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/activity_search_ayat.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/layout/layout_no_internet.xml" value="0.2164855072463768" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/AplikasiPencarianAyatAlQuran/app/src/main/res/menu/menu_search.xml" value="0.25025641025641027" />
       </map>
     </option>
